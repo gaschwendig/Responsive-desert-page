@@ -1,0 +1,505 @@
+body, html {
+	
+	margin: 0;
+	font-size: 16px;
+}
+
+.header {
+	
+	
+	 
+	background-color:#AFEEEE;
+	padding: 40px;
+	
+}
+
+.headcontainer {
+	
+	max-width: 940px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+	
+}
+
+.header h1 {
+	
+	
+	font-family: 'Oleo Script', cursive;
+	font-size: 3rem;
+	margin: 0;
+	color:	#2E8B57;
+}
+
+
+.headcontent {
+	display: flex; 
+	
+}
+
+.headcontainer ul {
+	display: inline-block;
+	list-style: none;
+     margin: 0;
+	font-size: 1rem;
+	
+	
+}
+
+.header ul li {
+	display: inline-block;
+	margin-right: 50px;
+		
+}
+
+.middle {
+	
+	max-height: 35%;
+	background-color: white;
+}
+
+.midcontent {
+	
+	height: 100%;
+	max-width: 940px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.midcontent img {
+	
+	width: 100%;
+	height: 100%;
+		
+}
+
+.midcontent p{
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+.product {
+	
+	
+	background-color: #DCDCDC;
+	
+}
+
+.productcontain {
+	max-width: 940px;
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.sidecontent {
+	
+	width: 40%;
+	
+}
+
+.sidecontent h2 {
+	
+	font-family: 'Lustria', serif;
+}
+
+.sidecontent h1{
+	
+	font-family: 'Oleo script', cursive;
+}
+
+.sweetpic {
+	
+	width: 40%;
+}
+
+.sweetpic img {
+	
+	width: 100%;
+}
+
+.more{
+	
+	background-color:#FFD700;
+	padding: 30px;
+	font-size: 1.5rem;
+	color: white;
+}
+
+.morecontained {
+	
+	max-width: 940px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.morecontained ul {
+	
+	list-style: none;
+}
+
+.morecontained ul li {
+	
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 50px;
+}
+
+
+
+.icons {
+	
+	color: white;
+	font-size: 3em;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.i{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.foot {
+	
+	background-color: #C71585;
+	padding-bottom: 250px;
+}
+
+.footcontain {
+	
+	max-width: 400px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.footcontain p {
+	
+	text-align: center;
+}
+
+.about {
+	
+	background-color: #FFD700;
+	text-align: center;
+	padding: 5px;
+	font-family: 'Lustria', serif;
+}
+
+.banner {
+	
+	max-height: 25%;
+	overflow: hidden;
+	
+}
+
+
+.banner img {
+	
+	width: 100%;
+	
+	
+}
+
+
+.mainbody{
+	
+	padding: 50px;
+}
+
+.maincontain {
+	
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.leftside {
+	
+	width: 30%;
+	padding: 20px;
+	background: rgba(216,216,216, 0.5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.leftside p {
+	
+	width: 155px;
+	text-align: center;
+	line-height: 3;
+	font-family: 'Lustria', serif;
+}
+
+.leftside h1 {
+	
+	text-align: center;
+	font-family: 'Oleo Script', cursive;
+	color: #FF1493
+}
+
+.rightside {
+	
+	width: 60%;
+}
+
+.rightside h1 {
+	color: #FF1493;
+	font-family: 'Oleo Script', cursive;
+}
+
+.rightside p {
+	
+	font-family: 'Lustria', serif;
+}
+
+.blog {
+	
+	background-color: #FFD700;
+	text-align: center;
+}
+
+.blogcontain h1 {
+	
+	margin: 0;
+	padding: 20px;
+}
+
+.blogcontain{
+	
+	max-width: 960px;
+	margin: 0 auto;
+	
+}
+
+.bodcontain {
+	
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.blogmain {
+	
+	padding-bottom: 100px;
+}
+
+
+.leftcontent {
+	
+	width: 60%;
+	
+}
+
+
+
+.topcontent img {
+	
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.topcontent {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+
+.topcontent p, .bottomcontent p {
+	
+	line-height: 25px;
+}
+
+
+
+.readmore{
+	width: 156px;
+	text-align: center;
+	margin-top: 30px;
+	padding: 20px;
+	border: 2px solid black;
+	margin: 0 auto;
+	
+}
+
+.topcontent div {
+	
+	width: 70%;
+}
+
+.bottomcontent {
+	 
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottomcontent img {
+	
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.bottomcontent div {
+	
+	width: 70%;
+}
+
+.rightcontent {
+	
+	width: 30%;
+	
+}
+
+.rightcontained {
+	
+	width: 80%;
+	text-align: center;
+	background-color: #D3D3D3;
+	margin-top: 100px;
+	height: auto;
+	padding: 30px; 
+	padding-bottom: 50px;
+}
+
+.rightcontent img {
+	
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.rightcontained span {
+	line-height: 1px;
+}
+
+
+
+@media screen and (max-width: 935px) {
+	
+	
+	.bodcontain {
+		
+		display: block;
+	}
+	
+	.blogmain {
+		padding: 0;
+	}
+	
+	.leftcontent {
+		
+		width: 100%;
+		text-align: center;
+		
+	}
+	
+	.rightcontent {
+		
+		width: 100%;
+		
+	}
+	
+	.topcontent div, .bottomcontent div{
+		width: 100%;
+		text-align: left;
+		
+	}
+	
+	.rightcontained {
+		
+		margin: 0 auto;
+		margin-top: 50px;
+		padding: 0px 36px 20px 36px;
+		
+	}
+	
+	.topcontent, .bottomcontent {
+		
+		display: block;
+	}
+	
+	
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+	
+	.headcontainer {
+		display: inline-block;
+	}
+	
+	.header h1, .header ul {
+		text-align: center;
+	}
+	
+	.morecontained ul li{
+		
+	display: block;
+	margin-bottom: 20%;
+		
+	}
+	
+	
+	.maincontain {
+		
+		display: block;
+		width: 100%;
+		
+	}
+	
+	.leftside {
+		
+		width: 85%;
+	}
+	
+	.rightside {
+		text-align: center;
+		width: 100%;
+	}
+	
+}
+
+
+@media screen and (max-width: 538px) {
+	
+	.productcontain {
+		
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.middle {
+		
+		height: 400px;
+	}
+	
+	.sidecontent {
+		width: 80%;
+	}
+}
